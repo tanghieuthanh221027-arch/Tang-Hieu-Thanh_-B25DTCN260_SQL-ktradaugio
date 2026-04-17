@@ -42,3 +42,9 @@ WHERE price < 1000000;
 SELECT * FROM Products;
 
 SELECT * FROM Products WHERE stock > 15;
+
+SELECT * FROM Products WHERE price >= 1000000 AND price <= 25000000;
+
+SELECT * FROM Products WHERE product_name != 'Iphone15' AND stock > 0;
+
+SELECT * FROM Products WHERE category_id != 1 AND price > 500000;
